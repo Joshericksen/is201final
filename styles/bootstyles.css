@@ -1,0 +1,137 @@
+/*Josh Ericksen 04/13/2022*/
+body{
+    background-color: #9dcdcd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.common{
+    /*background-color: #CCCCCC;
+    border: solid 2px white;*/
+    position: absolute;
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+    background-image: url('../images/home-bg.jpg');
+}
+/* if you want it to resize as the tab gets smaller and bigger in the vertical direction CANT use hieght. if you want it to resize
+left and right you can't use width.*/
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    border-right: solid 1px #555555;
+    background-color: #CCCCCC;
+}
+.mainbody{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.rightmenu{
+    right: 5px;
+    top: 114px;
+    width: 100px;
+    bottom: 64px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+    background-color: #CCCCCC;
+
+}
+
+.footer{
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 20px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    position: fixed;
+    border-top: solid 1px #555555;
+    background-color: beige;
+}
+.subheader{
+    float: right;
+   }
+   /* These are the real styles*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(75, 67, 67);
+    background-color: beige;
+}
+li {
+    color: rgb(4, 5, 3);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    color: rgb(119, 22, 22);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.resumelistheading{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.justify{
+    text-align: justify;
+
+    /*these are practice styles*/
+}
+.homebg{
+    background-image: url('images/background\ image.jpg');
+    background-size: contain;
+}
+
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.box2{
+    padding: 5px;
+}
+.box3{
+    margin: 5px;
+}
+.box4{
+    padding-left: 10px;
+    margin: 100px;
+    border: 5px solid rgb(0, 0, 0);
+}
+.center{
+    text-align: center;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 120%;
+}

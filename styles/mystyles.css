@@ -1,0 +1,16 @@
+/*Josh Ericksen 04/13/2022 */
+.bluecolor{
+    color: rgb(0,157,208)
+}
+.bold{
+    font-size: 120%;
+    font-weight: bold;
+}
+.custom1{
+    font-style: italic;
+    font-size: 110%;
+}
+.custom2{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
